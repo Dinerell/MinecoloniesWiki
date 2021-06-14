@@ -241,6 +241,6 @@ Edit the Structurize configuration file at `minecraft/config/structurize-common.
 
 ### How to create upgradable decoration schematics?
 
-Add the [deco controller](../../source/items/decocontroller) somewhere in the schematic with the name of the schematic, where you'll put it in the file directory, and its level. Make sure to actually put the decoration in that file path, but only after scanning - don't include the path in the scan name.
+Add the [deco controller](../../source/items/decocontroller) somewhere in the schematic with the name of the schematic, where you'll put it in the file directory, and its level. Make sure to actually put the decoration in that file path, but only after scanning - don't include the path in the scan name and do not change the anchor block in this case, as if you do, the decoration won’t be upgradable!
 
 ![Upgradable Decos](../../assets/images/tutorial/upgradabledecos.png)
